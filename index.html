@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mintlify – The Intelligent Knowledge Platform</title>
+<meta name="viewport" content="width=1280">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/symbol.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 1. NAVBAR -->
+<header class="nav">
+  <a class="logo" href="#"><img src="assets/logo-dark.svg" alt="Mintlify" height="30"></a>
+  <nav class="nav-links">
+    <a href="#">Resources</a><a href="#docs">Documentation</a><a href="#customers">Customers</a><a href="#">Blog</a><a href="#">Pricing</a>
+  </nav>
+  <div class="nav-cta">
+    <a class="btn btn-dark" href="#">Contact sales</a>
+    <a class="btn btn-white" href="#">Start for free</a>
+  </div>
+</header>
+
+<!-- 2. HERO -->
+<section class="hero">
+  <a class="pill" href="#"><b>NEW</b> Self-updating docs with agent suggestions <i>›</i></a>
+  <h1>The Intelligent Knowledge Platform</h1>
+  <p>Turn your company’s knowledge into accurate, agent-ready context</p>
+  <form class="email" action="#">
+    <input type="email" placeholder="Email address">
+    <button type="button" class="btn btn-white">Start now</button>
+  </form>
+</section>
+
+<!-- 3. DOCUMENTATION PREVIEW -->
+<section class="preview" id="docs">
+  <div class="app">
+    <aside class="side">
+      <div class="side-logo"><img src="assets/logo-light.svg" alt="Mintlify" height="20"></div>
+      <ul>
+        <li>✦ Ask Assistant</li>
+        <li class="on">▥ Quickstart</li>
+        <li>⚙ Global Settings</li>
+        <li>◈ AI Optimization</li>
+        <li>▦ Components</li>
+        <li>◐ Themes</li>
+      </ul>
+    </aside>
+    <div class="doc">
+      <div class="doc-top">
+        <div class="tabs"><span class="on">Guides</span><span>API Reference</span><span>Changelog</span></div>
+        <div class="search">🔍 Search or ask <em>⌘K</em></div>
+        <div class="ask">✦ Ask AI</div>
+      </div>
+      <div class="doc-body">
+        <div class="doc-main">
+          <small class="green">Getting Started</small>
+          <h2>Quickstart Guide</h2>
+          <p class="muted">Start building intelligent documentation in under five minutes</p>
+          <div class="cards">
+            <div class="card"><div class="thumb"><span class="shape s1"></span></div><h4>Introduction</h4><p>Learn how Mintlify structures your docs.</p></div>
+            <div class="card"><div class="thumb"><span class="shape s2"></span></div><h4>Getting started</h4><p>Install the CLI and preview locally.</p></div>
+          </div>
+        </div>
+        <div class="toc">
+          <small>☰ On this page</small>
+          <a class="on">Introduction</a><a>Getting started</a><a>AI optimization</a><a>Themes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. LOGOS -->
+<section class="logos">
+  <p>Trusted by 20,000+ ambitious companies</p>
+  <div class="logo-row">
+    <img src="assets/logos/replit.svg" alt="Replit">
+    <span>Granola</span>
+    <span>Anaconda</span>
+    <img src="assets/logos/kalshi.svg" alt="Kalshi">
+    <img src="assets/logos/1password.png" alt="1Password">
+    <img src="assets/logos/circle.svg" alt="Circle">
+    <img src="assets/logos/x.svg" alt="X">
+    <img src="assets/logos/coinbase.svg" alt="Coinbase">
+  </div>
+</section>
+
+<!-- 5. FEATURES -->
+<section class="features">
+  <div class="feature">
+    <div class="ftext">
+      <small class="eyebrow">Beautiful by default</small>
+      <h2>Docs that look as good as your product</h2>
+      <p>Start from polished themes and components. Customize colors, fonts and layout without touching a line of CSS.</p>
+      <a class="link" href="#">Explore themes →</a>
+    </div>
+    <div class="fvisual v-green"><div class="mock"><i></i><i></i><i class="s"></i><b></b></div></div>
+  </div>
+  <div class="feature rev">
+    <div class="ftext">
+      <small class="eyebrow">Write in your workflow</small>
+      <h2>Edit in the browser or in your IDE</h2>
+      <p>Collaborate with a web editor or work in Git. Every change is versioned, reviewed and deployed automatically.</p>
+      <a class="link" href="#">See the editor →</a>
+    </div>
+    <div class="fvisual v-blue"><div class="mock code"><i></i><i class="s"></i><i></i><i class="s"></i></div></div>
+  </div>
+</section>
+
+<!-- 6. ASSISTANT -->
+<section class="assistant">
+  <small class="eyebrow">Intelligent Assistant</small>
+  <h2>Answers for your users, grounded in your docs</h2>
+  <p class="lead">The assistant reads your content, cites its sources, and surfaces gaps so your documentation keeps improving.</p>
+  <div class="ui">
+    <div class="ui-bar"><span></span><span></span><span></span></div>
+    <div class="ui-body">
+      <div class="chat">
+        <div class="q">How do I authenticate API requests?</div>
+        <div class="a">Pass your API key in the <code>Authorization</code> header as a bearer token. See <u>Authentication</u> and <u>API keys</u>.</div>
+        <div class="src"><span>Authentication</span><span>API keys</span></div>
+      </div>
+      <div class="insights">
+        <h5>Suggestions</h5>
+        <div class="sg">Add rate-limit example</div>
+        <div class="sg">Update webhook payload</div>
+        <div class="sg">New page: SDK quickstart</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. ENTERPRISE -->
+<section class="enterprise">
+  <h2>Built to scale with the agent web</h2>
+  <p class="lead">300M+ visitors and 2B+ agents in the past year, with 99.99% uptime across all services.</p>
+  <div class="grid3">
+    <div class="eb"><div class="ico">🔒</div><h4>Security</h4><p>SOC 2 Type II, encryption at rest and in transit, and regular third-party audits.</p></div>
+    <div class="eb"><div class="ico">✔</div><h4>Compliance</h4><p>GDPR-ready with data processing agreements and regional data controls.</p></div>
+    <div class="eb"><div class="ico">👥</div><h4>SSO &amp; roles</h4><p>SAML SSO, SCIM provisioning and granular role-based permissions.</p></div>
+    <div class="eb"><div class="ico">⚡</div><h4>Global CDN</h4><p>Fast docs everywhere with 99.99% uptime and instant cache invalidation.</p></div>
+    <div class="eb"><div class="ico">🔑</div><h4>Private docs</h4><p>Gate content behind your own authentication, per page or per section.</p></div>
+    <div class="eb"><div class="ico">🛟</div><h4>Dedicated support</h4><p>Shared Slack channel, onboarding help and a named success manager.</p></div>
+  </div>
+</section>
+
+<!-- 8. CASE STUDIES -->
+<section class="cases" id="customers">
+  <h2>Customer stories</h2>
+  <div class="grid3">
+    <article class="case c-anthropic"><small>ANTHROPIC</small><h4>See how Anthropic accelerates AI adoption with Mintlify</h4><div class="stats"><div><b>10M+</b><span>Monthly docs visits</span></div><div><b>4+</b><span>Products served</span></div></div><a class="cbtn" href="https://www.mintlify.com/customers/anthropic">Read the story</a></article>
+    <article class="case c-coinbase"><small>COINBASE</small><h4>How Coinbase ships agent-ready docs at scale</h4><div class="stats"><div><b>50x</b><span>Faster deployment</span></div><div><b>12+</b><span>Products served</span></div></div><a class="cbtn" href="https://www.mintlify.com/customers/coinbase">Read the story</a></article>
+    <article class="case c-hubspot"><small>HUBSPOT</small><h4>How HubSpot builds docs faster with fewer resources</h4><div class="stats"><div><b>3x</b><span>Faster build times</span></div><div><b>50%</b><span>Fewer engineering resources</span></div></div><a class="cbtn" href="https://www.mintlify.com/customers/hubspot">Read the story</a></article>
+  </div>
+</section>
+
+<!-- 9. FINAL CTA -->
+<section class="final">
+  <h2>Make documentation your<br>competitive advantage</h2>
+  <div class="final-btns">
+    <a class="btn btn-white" href="#">Start for free</a>
+    <a class="btn btn-ghost" href="#">Contact sales</a>
+  </div>
+</section>
+
+<!-- 10. FOOTER -->
+<footer class="footer">
+  <div class="fcols">
+    <div class="fbrand">
+      <a class="logo" href="#"><img src="assets/logo-dark.svg" alt="Mintlify" height="30"></a>
+      <p>The intelligent knowledge platform.</p>
+    </div>
+    <div><h6>Product</h6><a>Editor</a><a>Assistant</a><a>Analytics</a><a>Changelog</a></div>
+    <div><h6>Resources</h6><a>Documentation</a><a>Blog</a><a>Templates</a><a>Community</a></div>
+    <div><h6>Company</h6><a>About</a><a>Careers</a><a>Customers</a><a>Contact</a></div>
+    <div><h6>Legal</h6><a>Privacy policy</a><a>Terms of service</a><a>Security</a><a>DPA</a></div>
+  </div>
+  <div class="copy">© 2026 Mintlify, Inc. All rights reserved. &nbsp;·&nbsp; SOC 2 Type II · GDPR</div>
+</footer>
+
+</body>
+</html>
