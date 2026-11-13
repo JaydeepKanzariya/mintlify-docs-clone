@@ -2,6 +2,9 @@
 
 Desktop-first recreation of the Mintlify landing page using only HTML and CSS (no JavaScript, no Tailwind, no animations).
 
+- **Live site:** https://jaydeepkanzariya.github.io/mintlify-docs-clone/
+- **Repository:** https://github.com/JaydeepKanzariya/mintlify-docs-clone
+
 **Files:** `index.html`, `styles.css`
 
 ## Sections recreated
